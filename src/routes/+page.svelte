@@ -94,9 +94,9 @@
             {job.place}
           </p>
         </div>
-        <p class="text-lg  pb-4 text-black">
+        <div class="text-lg  pb-4 !text-black list-disc">
           {@html job.description}
-        </p>
+        </div>
       {/each}
     </div>
     <div class="px-8">
