@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Our Merchandise</title>
+    <script src="merch.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div>
+        <main>
+          <section>
+            <h1>Stuffed Animals</h1>
+            <p>
+              Please have a look around. Our new members are awarded with $20,00
+              in credit. You can add credit at anytime with a coupon code. When
+              you want to make a purchase, please select the checkboxes of the
+              items you wish to purchase and click the "Checkout" button below.
+            </p>
+            <p id="creditamount"></p>
+            <table>
+              <tr>
+                <td>
+                  <img
+                    src="https://target.scene7.com/is/image/Target/GUEST_3bc6e063-0264-4168-8bb8-b6d09c752553"
+                    width="300"
+                    height="300"
+                    id="unicornImage"
+                  />
+                  <h2>Pink Unicorn</h2>
+                  <input id="unicornCheckbox" type="checkbox" />
+                  <span id="unicornPrice" />
+                  <p>
+                    Fluffy pink unicorn stuffed animal that smells like
+                    strawberries
+                  </p>
+                </td>
+                <td>
+                  <img
+                    src="https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B600%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&set=key%5Bresolve.format%5D,value%5Bwebp%5D&source=url%5Bhttps://prodimage.images-bn.com/pimages/0810407030049_p0_v1_s600x595.jpg%5D&scale=options%5Blimit%5D,size%5B600x10000%5D&sink=format%5Bwebp%5D"
+                    width="300"
+                    height="300"
+                    id="dinoImage"
+                  />
+                  <h2>Green Dinosaur</h2>
+                  <input id="dinoCheckbox" type="checkbox" value=/>
+                  <span id="dinoPrice"/>
+                  <p>
+                    Big green dinosaur stuffed animal that is easily washable
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img
+                    src="https://www.dontwasteyourmoney.com/wp-content/uploads/2019/11/ebba-plush-elephant-9-inch-stuffed-animal.jpg"
+                    width="300"
+                    height="300"
+                    id="elephantImage"
+                  />
+                  <h2>Gray Elephant</h2>
+                  <input id="elephantCheckbox" type="checkbox" />
+                  <span id="elephantPrice" />
+                  <p>
+                    Soft gray elephant stuffed animal that is very plush and
+                    cuddly
+                  </p>
+                </td>
+                <td>
+                  <img
+                    src="https://www.ikea.com/us/en/images/products/blahaj-soft-toy-shark__0710175_pe727378_s5.jpg?f=s"
+                    width="300"
+                    height="300"
+                    id="sharkImage"
+                  />
+                  <h2>Blue Shark</h2>
+                  <input id="sharkCheckbox" type="checkbox" />
+                  <span id="sharkPrice" />
+                  <p>Blue shark stuffed animal that looks like a real shark</p>
+                </td>
+              </tr>
+            </table>
+            <fieldset>
+              <label for="couponcode">Coupon code:</label>
+              <input type="text" id="couponcode"/>
+            </br>
+              <button type="button" id="checkout">Checkout</button>
+              <p id="receipt"></p>
+            </fieldset>
+          </section>
+        </main>
+      </div>
+    </header>
+
+    <footer>
+      <hr />
+      <small> &copy; Annie Sun, 2023</small>
+    </footer>
+  </body>
+</html>
+
